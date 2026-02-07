@@ -16,9 +16,12 @@ public class LoginPage {
 			CommonUtils.entervalue2(getpassword(),"selenium");
 			CommonUtils.clickElement(getLogin());
 			
+			System.out.println("welcome to github");
+			
 		}catch(Exception e) {
 			
 			TestNGUtil.assertFail(e.getMessage());
+			
 		}
 	}
 	
@@ -37,10 +40,8 @@ public class LoginPage {
 			
 				public String  welcomePage() {
 					return by_welcomePage;
-				}
-
-
-			
-					
+				}	
+				
+				
 				}
 
