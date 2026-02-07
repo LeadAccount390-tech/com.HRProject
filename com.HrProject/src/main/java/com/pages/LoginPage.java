@@ -16,7 +16,7 @@ public class LoginPage {
 			CommonUtils.entervalue2(getpassword(),"selenium");
 			CommonUtils.clickElement(getLogin());
 			
-			System.out.println("welcome to github");
+			System.out.println("welcome to git");
 			
 		}catch(Exception e) {
 			
